@@ -15,10 +15,15 @@ let show5 = document.createElement("img")
 
 show1.src = photos[0];
 // 1. Update the src for each variable - use the line above as a reference.
-
-
+show2.src = photos[1];
+show3.src = photos[2];
+show4.src = photos[3];
+show5.src = photos[4];
 
 body.appendChild(show1);
 // 2. Append each show to the body - use the line above as a reference.
-
+body.appendChild(show2);
+body.appendChild(show3);
+body.appendChild(show4);
+body.appendChild(show5);
 
